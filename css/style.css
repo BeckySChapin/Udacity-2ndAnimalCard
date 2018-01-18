@@ -1,0 +1,22 @@
+.card-container {
+  display: grid;
+  grid-template-columns: auto 1% 1.5% 15% 1.5% 1% auto;
+  grid-template-rows: auto 2.5% 200px 1% 175px 2.5%;
+  border: thin lightgrey 5px;
+}
+
+.dragon-image {
+  width: 300px;
+  height: auto;
+}
+
+.right-detail {
+  float: right;
+}
+
+.title {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
